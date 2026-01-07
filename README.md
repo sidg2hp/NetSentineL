@@ -207,6 +207,5 @@ The system is designed as a **Multi-threaded Forward Proxy**. It operates at the
 * **Security:** The proxy does not inspect HTTPS payloads (SSL/TLS Interception), preserving user privacy.
 * **Resource Limits:** The server uses `SO_REUSEADDR` to prevent port locking during restarts. Connections are closed after a single request-response cycle (no persistent Keep-Alive support).
 
-```
 
-```
+Video Link: https://drive.google.com/file/d/1nEA5eE1-B161dPCEZjvtW-2QFd6hNnrY/view?usp=sharing
